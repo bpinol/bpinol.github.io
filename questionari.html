@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Pagina Web</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="imatges/logonaruto.png" alt="Logo de Naruto">
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Informació</a></li>
+        <li><a href="personatges.html">Personatges</a></li>
+        <li><a href="sagas.html">Sagas</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a class="active" href="questionari.html">Qüestionari</a></li>
+      </ul>
+    </nav>
+  <article>
+      <h1>QÜESTIONARI</h1>
+      <form action="gracies.html" method="get" name="formulari" id="formulari">
+          <fieldset>
+              <legend>QÜESTIONARI SOBRE QUE OPINES DE L'ANIME</legend>
+              <label for="t'ha_agradat_la_informació_d'aquesta_pàgina_web">¿T'ha agradat l'informació d'aquesta pàgina web?:</label><br>
+              <input type="radio" name="resposta" id="si" value="si">Si<br>
+              <input type="radio" name="resposta" id="no" value="no">No<br>
+              <input type="radio" name="resposta" id="mes_o_menys" value="mes_o_menys">Mes o menys<br>
+              <br>
+              <label for="quin_es_el_teu_actor_preferit">¿Quins sons els teu personatge favorit?:</label><br>
+              <input type="checkbox" name="resposta1" id="naruto_uzumaki" value="naruto_uzumaki">Naruto Uzumaki<br>
+              <input type="checkbox" name="resposta2" id="sasuke_uchiha" value="sasuke_uchiha">Sasuke Uchiha<br>
+              <input type="checkbox" name="resposta3" id="sakura_haruno" value="sakura_haruno">Sakura Haruno<br>
+              <br>
+              <label for="opinio">QUE OPINAS DE LA MEVA PAGINA WEB?:</label>
+              <input type="text" id="opinio" name="la_teva_opinio" placeholder="Escriu la teva opinio"><br>
+              <br>
+              <button type="submit" id="submit">Enviar formulari</button>
+              <button type="reset" id="reset">Esborrar formulari</button>
+          </fieldset>
+      </form>
+  </article>
+  </section>
+  <footer>
+    <p>De Benjami Piñol</p>
+  </footer>
+</body>
+
+</html>

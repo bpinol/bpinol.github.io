@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(265deg, red, gold);
+}
+
+h1 {
+  font-family: naruto;
+  text-align: center;
+  font-size: 250%;
+}
+/*section {
+    display: flex;
+}
+
+/* Style the header */
+header {
+  background: linear-gradient(265deg, red, gold);
+  color: red;
+  padding: 3vw;
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+header img {
+  float: center;
+  width: 20%;
+}
+
+@font-face {
+  font-family: naruto;
+  src: url(njnaruto.ttf)
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  /*float: left;*/
+  /*width: 30%;*/
+  /*height: 300px; only for demonstration, should be removed*/
+  background: rgb(255, 217, 0);
+  padding: 1vw;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  /*width: auto;*/
+  justify-content: center;
+  border: o,1vw solid;
+  background-color: white;
+}
+nav ul li {
+  text-align: center;
+  border: 0.3vw solid black;
+  width: 20%;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 0.8vw 1.6vb;
+  text-decoration: none;
+}
+/*nav li:last-child {
+    border-bottom: none;
+}*/
+
+nav li a.active {
+  background-color: darkred;
+  color: white;
+  font-family: naruto;
+}
+
+nav li {
+  text-align: center;
+  border-bottom: 0.1vw solid black;
+}
+
+.imatge {
+  width: 15vw;
+}
+article {
+
+  /*float: left;*/
+  /*display: table;*/
+  padding: 1.5vw;
+  /*width: 70%;*/
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(265deg, orangered, gold);
+  /*height: 400px;  only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-image: red;
+  padding: 1vw;
+  text-align: center;
+  color: gold;
+}
+
+li a {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: rgb(30, 30, 221);
+  text-align: center;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 15px 64px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+ul {
+  border: 1px solid #555;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li a.active {
+  background-color: gold;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: orangered;
+  color: rgb(255, 217, 0);
+}
+
+h1 {
+  font-size: 1vw;
+}
+
+table,
+td,
+th {
+  border: 2px solid greenyellow;
+  background-color: aqua;
+}
+
+th {
+  font-size: x-large;
+  background-color: azure;
+}
+
+table {
+  background-color: rgb(157, 88, 221);
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(192, 127, 188);
+}
+
+.columna {
+  width: 50%;
+  padding: 4vw;
+  margin: 0%;
+  float: left;
+}
+
+img {
+  width: 3vw;
+  float: center;
+}
+
+.pers {
+  width: 8vw;
+}
+
+
+form {
+
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset{
+  padding: 5%;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media only screen and (max-width: 600px) {
+
+  body {
+  background-color: rgb(214, 174, 47);
+  }
+  .fila {
+  border: 1.7vw solid rgb(95, 4, 4)
+  }
+  img {
+  border-radius: 10%;
+  }
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6ae2f;
+  }
+  @font-face {
+  font-family: naruto;
+  src: url(njnaruto.ttf);
+  }
+
+  h1 {
+  text-shadow: 0.2vw 0.1vw orangered;
+  text-align: center;
+  font-family: naruto;
+  font-size: 1em;
+  color: #d6ae2f
+  }
+
+  h4 {
+  text-shadow: 0.2vw 0.1vw rgb(214, 174, 47);
+  text-align: center;
+  font-family: naruto;
+  font-size: 1em;
+  color: red
+  }
+
+  table,
+  td,
+  th {
+  border: 1px solid red;
+  background-color: #d6ae2f;
+  }
+
+  th {
+  font-size: x-large;
+  background-color: gold;
+  }
+
+  table {
+  background-color: red;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  img {
+  width: 10vw;
+  }
+
+  fieldset {
+  background-color: #d6ae2f;
+  border-color: red;
+  }
+
+  td {
+  font-family: naruto;
+  text-align: center;
+  font-size: 1.5em;
+  }
+
+  .columna {
+  width: 100%;
+  padding: 1.5vw;
+  float: left;
+  }
+
+  h2 {
+  font-family: naruto;
+  font-size: 2em;
+  color: yellow;
+  text-shadow: 0.1vw 0.1vw red;
+  }
+
+  h3 {
+  color: rgb(214, 174, 47);
+  text-align: center;
+  font-family: naruto;
+  font-size: 3.6em;
+  text-shadow: 0.3vw 0.3vw gold;
+  }
+
+  /* Style the header */
+
+  header {
+  background-color: gold;
+  padding: 3vw;
+  text-align: center;
+  font-size: 3vw;
+  color: white;
+  }
+
+  /*section {
+  display: flex;
+  }/*
+  /* Create two columns/boxes that floats next to each other */
+
+  nav {
+  /*float: left;*/
+  /*width: 30%;*/
+  /* height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 0.1vw;
+  }
+
+  /* Style the list inside the menu */
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+  display: flex;
+  justify-content: center;
+  }
+  nav li a {
+  display: block;
+  color: #000;
+  padding: 0.8vw 1.6vb;
+  text-decoration: none;
+  }
+  nav ul li{
+  text-align: center;
+  border: 0.2vw solid orangered;
+  width: 20%;
+  }
+  nav li {
+  text-align: center;
+  border-bottom: 0.1vw solid #555;
+  }
+  /*nav li:last-child {
+  border-bottom: none;
+  }*/
+  nav li a.active {
+  font-family: naruto;
+  background-color: #d6ae2f;
+  color: orangered(7, 26, 3);
+  text-shadow: 0.1vw 0.1vw red;
+  font-size: 1em;
+  }
+  nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  }
+  article {
+  /*float: left;*/
+  padding: 1vw;
+  /*width: 70%;*/
+  background-color: red;
+  /*height: 300px; /* only for demonstration, should be removed */
+  }
+  /* Clear floats after the columns */
+  section::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  /* Style the footer */
+  footer {
+  background-color: red;
+  padding: 0, 1vw;
+  text-align: center;
+  color: gold;
+  font-family: naruto;
+  font-size: 2em;
+  text-shadow: 0.1vw 0.1vw rgb(214, 174, 47);
+  }
+}

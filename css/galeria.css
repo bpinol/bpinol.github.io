@@ -1,0 +1,55 @@
+div.gallery {
+    border: 0.1vw solid #ccc;
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: darkred;
+    font-family: naruto;
+    text-align: center;
+}
+
+div.gallery:hover {
+    border: 0.1vw solid yellowgreen;
+}
+
+div.gallery img {
+    width: 25%;
+    /*height: 30%;*/
+}
+
+div.desc {
+    padding: 0.5vw;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+@media only screen and (max-width: 600px) {
+    div.gallery {
+        border: 0.1vw solid #ccc;
+        float: left;
+        width: 50%;
+        background-color: darkred;
+        font-family: naruto;
+        text-align: center;
+    }
+    
+    div.gallery:hover {
+        border: 0.1vw solid yellowgreen;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        /*height: auto;*/
+    }
+    
+    div.desc {
+        padding: 0.5vw;
+        text-align: center;
+    }
+    
+    body {
+        background-color: black;
+    }
+}
